@@ -105,78 +105,81 @@ public class MainZoo {
                     String compareSexSeaTurtle = GeneratedSeaTurtle.get(x).returnSex();
                     String compareSexSeaTurtle2 = GeneratedSeaTurtle.get(y).returnSex();
 
-                    System.out.println("------- Espace " + x + " ---------");
+
 
                     if(compareSexBlackBird == compareSexBlackBird2){
                         Espaces--;
+                        System.out.println("------- Espace " + x + " ---------");
                         System.out.println(GeneratedBlackBird.get(x));
                         System.out.println(GeneratedBlackBird.get(y));
+                        System.out.println("----------------------------------------");
+                    }else{
+                        System.out.println("---------------Espace" + x + "----------");
+                        System.out.println(GeneratedBlackBird.get(x));
+                        System.out.println("----------------------------------------");
                     }
 
                     if(compareSexCock == compareSexCock2){
                         Espaces--;
+                        System.out.println("------- Espace " + x + " ---------");
                         System.out.println(GeneratedCock.get(x));
                         System.out.println(GeneratedCock.get(y));
+                        System.out.println("----------------------------------------");
+                    }else{
+                        System.out.println("---------------Espace" + x + "----------");
+                        System.out.println(GeneratedCock.get(x));
+                        System.out.println("----------------------------------------");
                     }
 
                     if(compareSexHorse == compareSexHorse2){
                         Espaces--;
+                        System.out.println("------- Espace " + x + " ---------");
                         System.out.println(GeneratedHorse.get(x));
                         System.out.println(GeneratedHorse.get(y));
+                        System.out.println("----------------------------------------");
+
+                    }else{
+                        System.out.println("---------------Espace" + x + "----------");
+                        System.out.println(GeneratedHorse.get(x));
+                        System.out.println("----------------------------------------");
                     }
 
                     if(compareSexWhale == compareSexWhale2){
                         Espaces--;
+                        System.out.println("---------------Espace" + x + "----------");
                         System.out.println(GeneratedWhale.get(x));
                         System.out.println(GeneratedWhale.get(y));
+                        System.out.println("----------------------------------------");
+
+                    }else{
+                        System.out.println("---------------Espace" + x + "----------");
+                        System.out.println(GeneratedWhale.get(x));
+                        System.out.println("----------------------------------------");
                     }
 
                     if(compareSexChamaleon == compareSexChamaleon2){
                         Espaces--;
+                        System.out.println("---------------Espace" + x + "----------");
                         System.out.println(GeneratedChameleon.get(x));
                         System.out.println(GeneratedChameleon.get(y));
+                        System.out.println("----------------------------------------");
+                    }else{
+                        System.out.println("---------------Espace" + x + "----------");
+                        System.out.println(GeneratedChameleon.get(x));
+                        System.out.println("----------------------------------------");
                     }
 
                     if(compareSexSeaTurtle == compareSexSeaTurtle2){
                         Espaces--;
+                        System.out.println("---------------Espace" + x + "----------");
                         System.out.println(GeneratedSeaTurtle.get(x));
                         System.out.println(GeneratedSeaTurtle.get(y));
+                        System.out.println("----------------------------------------");
+                    }else{
+                        System.out.println("---------------Espace" + x + "----------");
+                        System.out.println(GeneratedSeaTurtle.get(x));
+                        System.out.println("----------------------------------------");
                     }
-
-                    System.out.println("----------------------------------------");
-
-
-                    System.out.println("---------------Espace" + x + "----------");
-
-                    System.out.println(GeneratedCock.get(x));
-
-                    System.out.println("----------------------------------------");
-
-                    System.out.println("---------------Espace" + x + "----------");
-
-                    System.out.println(GeneratedChameleon.get(x));
-
-                    System.out.println("----------------------------------------");
-                    System.out.println("---------------Espace" + x + "----------");
-
-                    System.out.println(GeneratedSeaTurtle.get(x));
-
-                    System.out.println("----------------------------------------");
-                    System.out.println("---------------Espace" + x + "----------");
-
-                    System.out.println(GeneratedHorse.get(x));
-
-                    System.out.println("----------------------------------------");
-                    System.out.println("---------------Espace" + x + "----------");
-
-                    System.out.println(GeneratedWhale.get(x));
-
-                    System.out.println("----------------------------------------");
-                    System.out.println("---------------Espace" + x + "----------");
-
-                    System.out.println(GeneratedBlackBird.get(x));
-
-                    System.out.println("----------------------------------------");
 
 
 
